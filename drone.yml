@@ -1,7 +1,0 @@
-notify:
-  slack:
-    room: Hartl & Training
-    token: 936024b8169e256aea69e0af7bbb7e
-    on_started: false
-    on_success: true
-    on_failure: true
