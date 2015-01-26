@@ -1,0 +1,15 @@
+one:
+  follower: david
+  followed: messi
+
+two:
+  follower: david
+  followed: ronaldo
+
+three:
+  follower: messi
+  followed: david
+
+four:
+  follower: neymar
+  followed: ronaldo

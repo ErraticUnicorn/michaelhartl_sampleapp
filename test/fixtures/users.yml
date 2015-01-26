@@ -14,6 +14,20 @@ neymar:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+ronaldo:
+  name: Ronaldo
+  email: r@soccer.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+messi:
+  name: Messi
+  email: m@soccer.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 
 <% 30.times do |n| %>
 user_<%= n %>:
